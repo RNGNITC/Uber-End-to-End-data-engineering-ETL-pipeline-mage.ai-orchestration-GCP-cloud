@@ -1,24 +1,26 @@
-# Uber Data Analytics | Modern Data Engineering GCP Project
+# Uber-Data Engineering Project in GCP cloud using mage.ai ETL orchestration tool
 
 ## Introduction
+The primary goal of this work is to build end to end pipeline for collecting data either through API from various sources or from google cloud storage. Further using GCP compuute instance (Virtual Machine for computing) and mage.ai( an ETL orchestration tool) to load data in GCP BigQuery. For the data modelling part, A star schema was built to make connection between fact and dimension tables. SQL query was developed to further organise the data set for the analytics team. Looker studio, a data visualisation tool , was used to see the patterns and trend in the data set.
 
-The goal of this project is to perform data analytics on Uber data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
 
 ## Architecture 
 <img src="architecture.jpg">
 
 ## Technology Used
-- Programming Language - Python
+A.) Programming Language - Python for initial developement
 
-Google Cloud Platform
-1. Google Storage
-2. Compute Instance 
-3. BigQuery
-4. Looker Studio
+B.) Google Cloud Platform
+  1. Google Storage: for storing the data set
+  2. Compute Instance: VM used to compute
+  3. BigQuery: Data warehouse whcih will be used by analytics team for further analysis
+  4. Looker Studio: Data visualisation for reporting and insights
 
-Modern Data Pipeine Tool - https://www.mage.ai/
-
-Contibute to this open source project - https://github.com/mage-ai/mage-ai
+C.) Modern Data Pipeine Tool -mage.ai 
+    Reference:
+  1. https://www.mage.ai/
+  2. https://arunrnair.hashnode.dev/mageai-vs-apache-airflow)
+  3. Contibute to this open source project - https://github.com/mage-ai/mage-ai
 
 
 ## Dataset Used
