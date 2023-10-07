@@ -37,3 +37,7 @@ More info about dataset can be found here:
 <img src="data_model.jpeg">![data_modelling_star_schema](https://github.com/RNGNITC/Uber-End-to-End-data-engineering-ETL-pipeline-mage.ai-orchestration-GCP-cloud/assets/125100033/38ca157f-5943-4e11-9310-48553e342f01)
 
 
+## how does mage ai works:
+1. we can use mage ai (which is modern orchestrtaion tool for ETL task)
+2. as data is available on cloud storage and can be accessed through API. mage ai have blcok of function for each task (extract, load, transform). with url we can access data for transformation and next process. then loading all data set on biq query.
+3. click on data exporter>python/sql/R>bigquery(choose location under same tab). You wokd get the data exporter code. We will be needing google service key and API key (for that go to GCP API and srvices and clikc on credentials
